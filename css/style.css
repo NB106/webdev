@@ -97,6 +97,10 @@ a {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -111,6 +115,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 250px;
   max-height: 380px;
+  margin: 10px;
 }
 
 .image {
@@ -133,6 +138,13 @@ a {
   color: black;
   font-size: 17px;
   line-height: 15px;
+}
+
+.info {
+  text-align: justify;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
 }
 
 .actions {
@@ -165,55 +177,6 @@ a {
 }
 
 @media only screen and (min-width: 200px) and (max-width:580px) {
-  .body {
-    width: 95%;
-    clear: both;
-    font-size: 97%;
-  }
-  .fa-list.modify {
-    display: block;
-  }
-  .nav {
-    background-color: black;
-    height: 199px;
-  }
-  .nav ul {
-    padding-left: 0;
-  }
-  .nav ul li {
-    width: 100%;
-    text-align: center;
-  }
-  .nav a:link, .nav a:visited {
-    color: white;
-    display: inline-block;
-    padding: 10px 25px;
-    height: 20px;
-  }
-  .nav a:hover, .nav a:active, .nav .active a:link, .nav .active a:visited {
-    background-color: #grey;
-  }
-  .nav ul li a {
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-  }
-  .content {
-    width: 100%;
-    float: left;
-    margin-top: 2%;
-  }
-  .topcontent {
-    margin-bottom: 2%;
-  }
-  .sidebar {
-    width: 100%;
-    margin: 2% 0 2% 0;
-    padding: 1%;
-  }
-}
-
-@media only screen and (min-width: 581px) and (max-width:1000px) {
   .body {
     width: 95%;
     clear: both;
