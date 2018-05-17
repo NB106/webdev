@@ -1,0 +1,263 @@
+body {
+  background-color: #DFDFDF;
+  font-size: 88%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.logo {
+  max-width: 100%;
+  margin: 2% 0;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  margin: 0 auto;
+  width: 80%;
+  clear: both;
+}
+
+.fa-list.modify {
+  display: none;
+  font-size: 35px;
+  position: absolute;
+  right: 30px;
+  top: 60px;
+  cursor: pointer;
+}
+
+.nav {
+  background-color: black;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.nav ul li {
+  float: left;
+  display: inline;
+}
+
+.nav a:link, .nav a:visited {
+  color: white;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+
+.nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.maincontent {
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content {
+  width: 70%;
+  float: left;
+}
+
+.topcontent {
+  background-color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+
+.sidebar {
+  width: 29%;
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  max-height: 380px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.name {
+  color: black;
+  font-size: 28px;
+  line-height: 0px;
+}
+
+.position {
+  color: grey;
+  font-size: 19px;
+  line-height: 0px;
+}
+
+.dgree {
+  color: black;
+  font-size: 17px;
+  line-height: 15px;
+}
+
+.actions {
+  width: 100%;
+  background-color: black;
+  padding: 6px;
+}
+
+.actions a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 1em;
+}
+
+.card a:hover {
+  color: #70F1FA;
+}
+
+.mainfooter {
+  width: 100%;
+  float: left;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin: 2% 0;
+}
+
+@media only screen and (min-width: 200px) and (max-width:580px) {
+  .body {
+    width: 95%;
+    clear: both;
+    font-size: 97%;
+  }
+  .fa-list.modify {
+    display: block;
+  }
+  .nav {
+    background-color: black;
+    height: 199px;
+  }
+  .nav ul {
+    padding-left: 0;
+  }
+  .nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .nav a:link, .nav a:visited {
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+  }
+  .nav a:hover, .nav a:active, .nav .active a:link, .nav .active a:visited {
+    background-color: #grey;
+  }
+  .nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  .content {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+  }
+  .topcontent {
+    margin-bottom: 2%;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 2% 0 2% 0;
+    padding: 1%;
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width:1000px) {
+  .body {
+    width: 95%;
+    clear: both;
+    font-size: 97%;
+  }
+  .fa-list.modify {
+    display: block;
+  }
+  .nav {
+    background-color: black;
+    height: 199px;
+  }
+  .nav ul {
+    padding-left: 0;
+  }
+  .nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .nav a:link, .nav a:visited {
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+  }
+  .nav a:hover, .nav a:active, .nav .active a:link, .nav .active a:visited {
+    background-color: #grey;
+  }
+  .nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  .content {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+  }
+  .topcontent {
+    margin-bottom: 2%;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 2% 0 2% 0;
+    padding: 1%;
+  }
+}
